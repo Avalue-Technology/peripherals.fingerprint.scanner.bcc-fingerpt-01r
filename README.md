@@ -8,10 +8,10 @@ If you need to connect BCC-FINGERPT-01R Fingerprint Scanner Module to device dir
 # Introduction
 The Tutorial Code was made by Android Studio Flamingo 2022.2.1 Patch 2. Please make sure your development environment is matched.
 
-![Android Studio Version](https://github.com/Avalue-Technology/peripherals.fingerprint.scanner.bcc-fingerpt-01r/tree/main/MarkdownDocumentImages/Android.Studio.Version.png?raw=true)
+![Android Studio Version](https://github.com/Avalue-Technology/peripherals.fingerprint.scanner.bcc-fingerpt-01r/blob/main/MarkdownDocumentImages/Android.Studio.Version.png?raw=true)
 
 # Execution Screenshot
-![Android Studio Version](https://github.com/Avalue-Technology/peripherals.fingerprint.scanner.bcc-fingerpt-01r/tree/main/MarkdownDocumentImages/com.avalue.example.fingerprintscanner.png?raw=true)
+![Android Studio Version](https://github.com/Avalue-Technology/peripherals.fingerprint.scanner.bcc-fingerpt-01r/blob/main/MarkdownDocumentImages/com.avalue.example.fingerprintscanner.png?raw=true)
 
 # Refreence
 [usb-serial-for-android](https://github.com/mik3y/usb-serial-for-android "usb-serial-for-android")
