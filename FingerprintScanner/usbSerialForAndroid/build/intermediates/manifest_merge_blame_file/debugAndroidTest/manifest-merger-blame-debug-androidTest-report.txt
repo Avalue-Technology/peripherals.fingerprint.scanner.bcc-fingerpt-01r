@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hoho.android.usbserial.test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest4361676248565285889.xml:7:5-9:41
+8        android:minSdkVersion="17"
+8-->D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest4361676248565285889.xml:8:9-35
+9        android:targetSdkVersion="33" />
+9-->D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest4361676248565285889.xml:9:9-38
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest4361676248565285889.xml:11:5-67
+11-->D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest4361676248565285889.xml:11:22-64
+12
+13    <instrumentation
+13-->D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest4361676248565285889.xml:13:5-18:67
+14        android:name="androidx.test.runner.AndroidJUnitRunner"
+14-->D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest4361676248565285889.xml:14:9-63
+15        android:functionalTest="false"
+15-->D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest4361676248565285889.xml:15:9-39
+16        android:handleProfiling="false"
+16-->D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest4361676248565285889.xml:16:9-40
+17        android:label="Tests for com.hoho.android.usbserial.test"
+17-->D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest4361676248565285889.xml:17:9-66
+18        android:targetPackage="com.hoho.android.usbserial.test" />
+18-->D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest4361676248565285889.xml:18:9-64
+19
+20    <uses-permission android:name="android.permission.REORDER_TASKS" />
+20-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:24:5-72
+20-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:24:22-69
+21
+22    <queries>
+22-->[androidx.test:runner:1.5.2] C:\Users\alex_chang\.gradle\caches\transforms-3\61055e925b19bc5f3d35760b996cd3df\transformed\runner-1.5.2\AndroidManifest.xml:24:5-28:15
+23        <package android:name="androidx.test.orchestrator" />
+23-->[androidx.test:runner:1.5.2] C:\Users\alex_chang\.gradle\caches\transforms-3\61055e925b19bc5f3d35760b996cd3df\transformed\runner-1.5.2\AndroidManifest.xml:25:9-62
+23-->[androidx.test:runner:1.5.2] C:\Users\alex_chang\.gradle\caches\transforms-3\61055e925b19bc5f3d35760b996cd3df\transformed\runner-1.5.2\AndroidManifest.xml:25:18-59
+24        <package android:name="androidx.test.services" />
+24-->[androidx.test:runner:1.5.2] C:\Users\alex_chang\.gradle\caches\transforms-3\61055e925b19bc5f3d35760b996cd3df\transformed\runner-1.5.2\AndroidManifest.xml:26:9-58
+24-->[androidx.test:runner:1.5.2] C:\Users\alex_chang\.gradle\caches\transforms-3\61055e925b19bc5f3d35760b996cd3df\transformed\runner-1.5.2\AndroidManifest.xml:26:18-55
+25        <package android:name="com.google.android.apps.common.testing.services" />
+25-->[androidx.test:runner:1.5.2] C:\Users\alex_chang\.gradle\caches\transforms-3\61055e925b19bc5f3d35760b996cd3df\transformed\runner-1.5.2\AndroidManifest.xml:27:9-83
+25-->[androidx.test:runner:1.5.2] C:\Users\alex_chang\.gradle\caches\transforms-3\61055e925b19bc5f3d35760b996cd3df\transformed\runner-1.5.2\AndroidManifest.xml:27:18-80
+26    </queries>
+27
+28    <application android:debuggable="true" >
+28-->D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest4361676248565285889.xml:20:5-22:19
+29        <uses-library android:name="android.test.runner" />
+29-->D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest4361676248565285889.xml:21:9-60
+29-->D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest4361676248565285889.xml:21:23-57
+30
+31        <activity
+31-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:27:9-34:20
+32            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+32-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:28:13-99
+33            android:exported="true"
+33-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:29:13-36
+34            android:theme="@style/WhiteBackgroundTheme" >
+34-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:30:13-56
+35            <intent-filter android:priority="-100" >
+35-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+35-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:32:17-77
+36-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:32:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:35:9-42:20
+40            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+40-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:36:13-95
+41            android:exported="true"
+41-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:37:13-36
+42            android:theme="@style/WhiteBackgroundTheme" >
+42-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:38:13-56
+43            <intent-filter android:priority="-100" >
+43-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+43-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:32:17-77
+44-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:32:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:43:9-50:20
+48            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+48-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:44:13-103
+49            android:exported="true"
+49-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:45:13-36
+50            android:theme="@style/WhiteBackgroundDialogTheme" >
+50-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:46:13-62
+51            <intent-filter android:priority="-100" >
+51-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+51-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:32:17-77
+52-->[androidx.test:core:1.5.0] C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\AndroidManifest.xml:32:27-74
+53            </intent-filter>
+54        </activity>
+55    </application>
+56
+57</manifest>

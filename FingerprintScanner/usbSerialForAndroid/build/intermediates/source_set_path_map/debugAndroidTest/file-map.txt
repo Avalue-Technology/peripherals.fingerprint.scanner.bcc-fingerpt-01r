@@ -1,0 +1,7 @@
+com.hoho.android.usbserial.test.usbSerialForAndroid-core-1.5.0-0 C:\Users\alex_chang\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\res
+com.hoho.android.usbserial.test.usbSerialForAndroid-annotation-experimental-1.1.0-1 C:\Users\alex_chang\.gradle\caches\transforms-3\8723be3de5470b4177388d8ccdff9a04\transformed\annotation-experimental-1.1.0\res
+com.hoho.android.usbserial.test.usbSerialForAndroid-androidTest-2 D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\generated\res\resValues\androidTest\debug
+com.hoho.android.usbserial.test.usbSerialForAndroid-mergeDebugAndroidTestResources-3 D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.hoho.android.usbserial.test.usbSerialForAndroid-mergeDebugAndroidTestResources-4 D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.hoho.android.usbserial.test.usbSerialForAndroid-merged_res-5 D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\merged_res\debugAndroidTest
+com.hoho.android.usbserial.test.usbSerialForAndroid-packaged_res-6 D:\MyWorks\AS\FingerprintScanner\usbSerialForAndroid\build\intermediates\packaged_res\debug
