@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>FingerprintScanner - Semgrep</title>
+	<style>
+		:root {
+			color-scheme: light;
+			font-family: Arial, sans-serif;
+		}
+
+		body {
+			margin: 0;
+			padding: 32px;
+			background: #f3f6fb;
+			color: #0f172a;
+		}
+
+		.report-shell {
+			max-width: 1280px;
+			margin: 0 auto;
+			background: #ffffff;
+			border-radius: 16px;
+			padding: 32px;
+			box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+		}
+
+		h1 {
+			margin: 0 0 12px;
+			font-size: 32px;
+		}
+
+		.report-meta {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+			gap: 16px;
+			margin: 0 0 32px;
+		}
+
+		.meta-card {
+			background: #f8fafc;
+			border: 1px solid #dbe2ea;
+			border-radius: 12px;
+			padding: 16px;
+		}
+
+		.meta-label {
+			display: block;
+			margin-bottom: 8px;
+			font-size: 12px;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+			color: #475569;
+		}
+
+		.meta-value {
+			word-break: break-word;
+		}
+
+		.report-group + .report-group {
+			margin-top: 28px;
+		}
+
+		.report-group h2 {
+			margin: 0 0 12px;
+			font-size: 22px;
+		}
+
+		.report-count {
+			display: inline-block;
+			margin-left: 8px;
+			padding: 2px 10px;
+			border-radius: 999px;
+			background: #dbeafe;
+			color: #1d4ed8;
+			font-size: 14px;
+			vertical-align: middle;
+		}
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			background: #ffffff;
+		}
+
+		th,
+		td {
+			padding: 12px 14px;
+			border: 1px solid #dbe2ea;
+			text-align: left;
+			vertical-align: top;
+		}
+
+		th {
+			background: #e2e8f0;
+		}
+
+		pre {
+			margin: 0;
+			font-family: Consolas, "Courier New", monospace;
+			white-space: pre-wrap;
+			word-break: break-word;
+		}
+
+		.severity {
+			display: inline-block;
+			padding: 4px 10px;
+			border-radius: 999px;
+			font-size: 12px;
+			font-weight: 700;
+		}
+
+		.severity-badge-severity-high {
+			background: #fee2e2;
+			color: #b91c1c;
+		}
+
+		.severity-badge-severity-medium {
+			background: #fef3c7;
+			color: #b45309;
+		}
+
+		.severity-badge-severity-low {
+			background: #dcfce7;
+			color: #15803d;
+		}
+
+		.severity-badge-severity-info {
+			background: #dbeafe;
+			color: #1d4ed8;
+		}
+
+		.empty-state {
+			padding: 24px;
+			border: 1px dashed #cbd5e1;
+			border-radius: 12px;
+			background: #f8fafc;
+		}
+	</style>
+</head>
+<body>
+	<div class="report-shell">
+		<h1>Semgrep</h1>
+		<div class="report-meta">
+			<div class="meta-card">
+				<span class="meta-label">Project Name</span>
+				<div class="meta-value">FingerprintScanner</div>
+			</div>
+			<div class="meta-card">
+				<span class="meta-label">Raw file</span>
+				<div class="meta-value">semgrep.json</div>
+			</div>
+			<div class="meta-card">
+				<span class="meta-label">Exported at</span>
+				<div class="meta-value">2026-09-08 12:09:31</div>
+			</div>
+		</div>
+		
+		<section class="report-group">
+			<h2>java.android.security.exported_activity.exported_activity <span class="report-count">1</span></h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Path</th>
+						<th>Details</th>
+						<th>Baseline</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td><pre>D:\MyProjects\AS\peripherals.fingerprint.scanner.bcc-fingerpt-01r\FingerprintScanner\app\src\main\AndroidManifest.xml:18</pre></td>
+							<td>The application exports an activity. Any application on the device can launch the exported activity which may compromise the integrity of your application or its data.  Ensure that any exported activities do not have privileged access to your application&#39;s control plane.</td>
+							<td><span class="severity severity-badge-severity-info">WARNING</span></td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</section>
+	
+		<section class="report-group">
+			<h2>problem-based-packs.insecure-transport.java-stdlib.telnet-request.telnet-request <span class="report-count">1</span></h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Path</th>
+						<th>Details</th>
+						<th>Baseline</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+						<tr>
+							<td><pre>D:\MyProjects\AS\peripherals.fingerprint.scanner.bcc-fingerpt-01r\FingerprintScanner\usbSerialForAndroid\src\androidTest\java\com\hoho\android\usbserial\util\TelnetWrapper.java:49</pre></td>
+							<td>Checks for attempts to connect through telnet. This is insecure as the telnet protocol supports no encryption, and data passes through unencrypted.</td>
+							<td><span class="severity severity-badge-severity-info">WARNING</span></td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</section>
+	
+	</div>
+</body>
+</html>
